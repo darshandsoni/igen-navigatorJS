@@ -1,0 +1,42 @@
+
+
+{
+  "name": "Area",
+  "children": [
+    {
+      "name": "4th Year FINAL",
+      "children": [
+        {
+          "name": "3rd Year FINAL",
+          "children": [
+            {
+              "name": "2nd Year FINAL",
+              "children": [
+                {
+                  "name": "200 COURSE",
+                  "size": 4500000000
+                },
+                {
+                  "name": "201 COURSE",
+                  "size": 4500000000
+                }
+              ]
+            },
+            {
+              "name": "300 COURSE",
+              "size": 4500000000
+            },
+            {
+              "name": "301 COURSE",
+              "size": 4500000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "400 COURSE",
+      "size": 4500000000
+    }
+  ]
+}
