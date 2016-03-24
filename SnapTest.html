@@ -1,0 +1,83 @@
+<title>Snap Test</title>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+</head>
+<body>
+  <style>
+    #svg{
+      width: 1200px;
+      height: 1200px;
+    }
+  </style>
+  <h1>Research page</h1>
+  <svg id="svg"></svg>
+
+  <script>
+  var s = Snap("#svg");
+
+  // Background Rectangles
+  var mechBox = s.rect(0,0,500,500);
+  var civlBox = s.rect(500,0,500,500);
+  var elecBox = s.rect(0,500,500,500);
+  var mtrlBox = s.rect(500,500,500,500);
+
+  var mechText = s.text(50,50, "MECH");
+  var civlText = s.text(950,50, "CIVL");
+  var elecText = s.text(50,950, "ELEC");
+  var mtrlText = s.text(950,950, "MTRL");
+
+  // Rectangle Styles
+  mechBox.attr({
+    fill: "#e74c3c",
+    stroke: "#000",
+    strokeWidth: "5",
+  });
+  civlBox.attr({
+    fill: "#f39c12",
+    stroke: "#000",
+    strokeWidth: "5",
+  });
+  elecBox.attr({
+    fill: "#3498db",
+    stroke: "#000",
+    strokeWidth: "5",
+  });
+  mtrlBox.attr({
+    fill: "#2ecc71",
+    stroke: "#000",
+    strokeWidth: "5",
+  });
+
+
+// Year Circles:
+var fourthYear = s.circle(500,500,350);
+var thirdYear = s.circle(500, 500, 250);
+var secondYear = s.circle(500, 500, 150);
+
+var pointGab = (s.circle(600,380,5) , s.circle(500,380,5));
+pointGab.drag();
+
+
+// Circle Styles
+fourthYear.attr({
+  fill: "#FFFFFF",
+  stroke: "#000",
+  strokeWidth: "5",
+});
+thirdYear.attr({
+  fill: "#95a5a6",
+  stroke: "#000",
+  strokeWidth: "5",
+});
+secondYear.attr({
+  fill: "#FFFFFF",
+  stroke: "#000",
+  strokeWidth: "5",
+});
+pointsGab.attr({
+  fill: "#2ecc71",
+  stroke: "#000",
+  strokeWidth: "2",
+});
+  </script>
+</body>
