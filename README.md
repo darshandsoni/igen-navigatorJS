@@ -4,3 +4,6 @@ This is the JS and JSON backend to populate the interactive degree navigator use
 Project still in baby stages. Stay tuned for more!
 
 See the front-end demo, [igen-navigator](https://github.com/darshandsoni/igen-navigator)
+
+## Important
+Project has changed course. Source is now in SnapTest.html
