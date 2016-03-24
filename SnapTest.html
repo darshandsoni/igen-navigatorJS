@@ -9,7 +9,7 @@
       height: 1200px;
     }
   </style>
-  <h1>Research page</h1>
+  <h1 style="font-family:sans-serif;">Research page</h1>
   <svg id="svg"></svg>
 
   <script>
@@ -54,7 +54,11 @@ var fourthYear = s.circle(500,500,350);
 var thirdYear = s.circle(500, 500, 250);
 var secondYear = s.circle(500, 500, 150);
 
-var pointGab = (s.circle(600,380,5) , s.circle(500,380,5));
+var secondText = s.text(450,500, "Second Year");
+var thirdText = s.text(450,300, "Third Year");
+var fourthText = s.text(450,200, "Fourth Year");
+
+var pointGab = s.circle(600,380,5);
 pointGab.drag();
 
 
