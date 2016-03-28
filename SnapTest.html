@@ -58,8 +58,17 @@ var secondText = s.text(450,500, "Second Year");
 var thirdText = s.text(450,300, "Third Year");
 var fourthText = s.text(450,200, "Fourth Year");
 
-var pointGab = s.circle(600,380,5);
-pointGab.drag();
+var pointGab1 = s.circle(450,450,5);
+var textGab1 = Snap.parse('<title>Project 1: Oxygen Monitor - Designed a oxygen sensor for medical applications to monitor levels in tanks</title>');
+pointGab1.append( textGab1 );
+
+var pointGab2 = s.circle(350,380,5);
+var textGab2 = Snap.parse('<title>MECH 380 - Fluid Dynamics - Continuing fluids background to better understand the mechanics of fluid systems. An area highly relevant to utilities and medical fields</title>');
+pointGab2.append( textGab2 );
+
+var pointGab3 = s.circle(460,220,5);
+var textGab3 = Snap.parse('<title>CIVL 493 - Construction Case Management - Gained background in productivity analysis and real world application of construction project management. Key experience for understanding how to problem solve in industry, not necessarily in construction</title>');
+pointGab3.append( textGab3 );
 
 
 // Circle Styles
@@ -78,10 +87,12 @@ secondYear.attr({
   stroke: "#000",
   strokeWidth: "5",
 });
-pointsGab.attr({
+Gabriel.attr({
   fill: "#2ecc71",
   stroke: "#000",
   strokeWidth: "2",
 });
+
+
   </script>
 </body>
