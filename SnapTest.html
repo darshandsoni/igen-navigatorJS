@@ -79,25 +79,54 @@ var pointGab5 = s.circle(400,250,20);
 var textGab5 = Snap.parse('<title>Project 3: LumenLock - New waterproof port and dressing for CVC lines. Part of the New Venture Design course</title>');
 pointGab5.append( textGab5 );
 
-  // Work related
-  /*
-var pointGab6 = s.circle(600,600,20);
-var textGab6 = Snap.parse('<title>Work Exp 1: Materials Research @ UBC - Design and build a robotic pour apparatus to test aluminum casting pours</title>');
-pointGab6.append( textGab6 );
 
-var pointGab7 = s.circle(700,400,20);
-var textGab7 = Snap.parse('<title>Work Exp 2: Wastewater Engineer @ City of Campbell River - Designing systems for wastewater treatment and engaging public on water conservation issues</title>');
-pointGab7.append( textGab7 );
-
-var pointGab8 = s.circle(200,600,20);
-var textGab8 = Snap.parse('<title>Work Exp 3: Electrical Engineer @ Muir Engineering - Designing electrical grids and systems for commercial space</title>');
-pointGab8.append( textGab8 );
-
-var pointGab9 = s.circle(200,500,20);
-var textGab9 = Snap.parse('<title>Work Exp 4: Sales Engineer @ Trane - Sales of technical equipment for HVAC  industry</title>');
-pointGab9.append( textGab5 );
-*/
 var Gabriel = s.group(pointGab1,pointGab2,pointGab3,pointGab4,pointGab5);
+
+// Matt's PATH %%%%%%%%%%%%%%%%%%%%%%%
+var pointMatt1 = s.circle(100,650,20);
+var textMatt1 = Snap.parse('<title>ELEC 402- "Introduction to VLSI Systems" - Static CMOS combinational logic circuits. Standard cells design and layout. Memory element (flip-flop and latch) design. Power, scaling, and industry trends. Verification. VHDL/Verilog design, layout and synthesis project using CAD tools.</title>');
+pointMatt1.append( textMatt1 );
+
+var pointMatt2 = s.circle(630,150,20);
+var textMatt2 = Snap.parse('<title>MTRL 486 - "Nondestructive Evaluation" - Principles of test methods; inspection techniques and equipment; quantitative flaw evaluation; reliability analysis</title>');
+pointMatt2.append( textMatt2 );
+
+var pointMatt3 = s.circle(400,500,20);
+var textMatt3 = Snap.parse('<title>Project 1: Autonomous Underwater Vehicle - Designed and built a robotic underwater vehicle with the goal of being able to detect walls and navigate around a swimming pool.</title>');
+pointMatt3.append( textMatt3 );
+
+var pointMatt4 = s.circle(600,310,20);
+var textMatt4 = Snap.parse('<title>Project 2: Rescue Balloon - IGEN Challenge Project to create a permanent flare for emergency situations</title>');
+pointMatt4.append( textMatt4 );
+
+var pointMatt5 = s.circle(130,500,20);
+var textMatt5 = Snap.parse('<title>UV Water Treatment Bottle - Worked to design a water bottle with an integrated ultraviolet water treatment device utilizing next-generation ultraviolet LEDs.</title>');
+pointMatt5.append( textMatt5 );
+
+var mattLine = s.path("M400 500 S 600 500 600 310 L 630 150 S 50 50 130 500 L 100 650");
+
+var Matt = s.group(pointMatt1,pointMatt2,pointMatt3,pointMatt4,pointMatt5);
+
+// Janyce's PATH %%%%%%%%%%%%%%%%%%%%%%%
+var pointJanyce1 = s.circle(500,110,20);
+var textJanyce1 = Snap.parse('<title>MTRL 495 - Biomaterials - Engineered materials in medical applications with an emphasis on material properties, functionality, design, and material response in the biological environment.</title>');
+pointJanyce1.append( textJanyce1 );
+
+var pointJanyce2 = s.circle(420,170,20);
+var textJanyce2 = Snap.parse('<title>MECH 435 - Orthopaedic Biomechanics - Musculoskeletal anatomy. Muscle and joint loads. Muscle mechanics. Musculoskeletal dynamics. Gait. Tissue mechanics of tendon, ligament, articular cartilage, and bone. Biomaterials. Application examples in orthopaedics including joint replacement and fracture fixation.</title>');
+pointJanyce2.append( textJanyce2 );
+
+var pointJanyce4 = s.circle(400,350,20);
+var textJanyce4 = Snap.parse('<title>Childrens Intussusception Reduction Device - Worked with BC Children Hospital in developing a data logger and pump system for the intussusception reduction procedure.</title>');
+pointJanyce4.append( textJanyce4 );
+
+var pointJanyce5 = s.circle(80,500,20);
+var textJanyce5 = Snap.parse('<title>Wireless Temperature Sensor w/ linked App - Worked with Great Dane coffee company to develop a temperature sensor that would relay the temperature to the customer through an app.</title>');
+pointJanyce5.append( textJanyce5 );
+
+var janyceLine = s.path("M 400 350 L 420 170 L 500 110 S 80 80 80 500");
+
+var Janyce = s.group(pointJanyce1,pointJanyce2,pointJanyce4,pointJanyce5);
 
 // Cobi's PATH %%%%%%%%%%%%%%%%%%%%%%%
 var pointCobi1 = s.circle(340,340,20);
@@ -120,80 +149,9 @@ var pointCobi5 = s.circle(150,600,20);
 var textCobi5 = Snap.parse('<title>Project 3: "Modulo" - A helmet-mounted, smart connection hub for motorcycle riders that will feature technologies to improve rider safety and convenience. Two major areas of focus are rider illumination and providing constant power (for charging 3rd party accessories, like GoPro, bluetooth headsets).</title>');
 pointCobi5.append( textCobi5 );
 
-var cobiLine = s.polyline(420,420,500,300,340,340,240,500,150,600);
-
-
-  // Work related
-  /*
-var pointCobi6 = s.circle(600,600,20);
-var textCobi6 = Snap.parse('<title></title>');
-pointCobi6.append( textCobi6 );
-
-var pointCobi7 = s.circle(700,400,20);
-var textCobi7 = Snap.parse('<title></title>');
-pointCobi7.append( textCobi7 );
-
-var pointCobi8 = s.circle(200,600,20);
-var textCobi8 = Snap.parse('<title></title>');
-pointCobi8.append( textCobi8 );
-
-var pointCobi9 = s.circle(200,500,20);
-var textCobi9 = Snap.parse('<title></title>');
-pointCobi9.append( textCobi5 );
-
-*/
+var cobiLine = s.path("M 420 420 L 500 300 L 340 340 L 240 500 L 150 600");
 
 var Cobi = s.group(pointCobi1,pointCobi2,pointCobi3,pointCobi4,pointCobi5);
-
-// Matt's PATH %%%%%%%%%%%%%%%%%%%%%%%
-var pointMatt1 = s.circle(170,650,20);
-var textMatt1 = Snap.parse('<title>ELEC 402- "Introduction to VLSI Systems" - Static CMOS combinational logic circuits. Standard cells design and layout. Memory element (flip-flop and latch) design. Power, scaling, and industry trends. Verification. VHDL/Verilog design, layout and synthesis project using CAD tools.</title>');
-pointMatt1.append( textMatt1 );
-
-
-var pointMatt2 = s.circle(650,120,20);
-var textMatt2 = Snap.parse('<title>MTRL 486 - "Nondestructive Evaluation" - Principles of test methods; inspection techniques and equipment; quantitative flaw evaluation; reliability analysis</title>');
-pointMatt2.append( textMatt2 );
-
-var pointMatt3 = s.circle(400,500,20);
-var textMatt3 = Snap.parse('<title>Project 1: Autonomous Underwater Vehicle - Designed and built a robotic underwater vehicle with the goal of being able to detect walls and navigate around a swimming pool.</title>');
-pointMatt3.append( textMatt3 );
-
-var pointMatt4 = s.circle(600,310,20);
-var textMatt4 = Snap.parse('<title>Project 2: Rescue Balloon - IGEN Challenge Project to create a permanent flare for emergency situations</title>');
-pointMatt4.append( textMatt4 );
-
-var pointMatt5 = s.circle(130,500,20);
-var textMatt5 = Snap.parse('<title>UV Water Treatment Bottle - Worked to design a water bottle with an integrated ultraviolet water treatment device utilizing next-generation ultraviolet LEDs.</title>');
-pointMatt5.append( textMatt5 );
-
-
-var Matt = s.group(pointMatt1,pointMatt2,pointMatt3,pointMatt4,pointMatt5);
-
-// Janyce's PATH %%%%%%%%%%%%%%%%%%%%%%%
-var pointJanyce1 = s.circle(500,110,20);
-var textJanyce1 = Snap.parse('<title>MTRL 495 - Biomaterials - Engineered materials in medical applications with an emphasis on material properties, functionality, design, and material response in the biological environment.</title>');
-pointJanyce1.append( textJanyce1 );
-
-var pointJanyce2 = s.circle(420,170,20);
-var textJanyce2 = Snap.parse('<title>MECH 435 - Orthopaedic Biomechanics - Musculoskeletal anatomy. Muscle and joint loads. Muscle mechanics. Musculoskeletal dynamics. Gait. Tissue mechanics of tendon, ligament, articular cartilage, and bone. Biomaterials. Application examples in orthopaedics including joint replacement and fracture fixation.</title>');
-pointJanyce2.append( textJanyce2 );
-/*
-var pointJanyce3 = s.circle(350,500,20);
-var textJanyce3 = Snap.parse('<title></title>');
-pointJanyce3.append( textJanyce3 );
-*/
-var pointJanyce4 = s.circle(400,350,20);
-var textJanyce4 = Snap.parse('<title>Childrens Intussusception Reduction Device - Worked with BC Children Hospital in developing a data logger and pump system for the intussusception reduction procedure.</title>');
-pointJanyce4.append( textJanyce4 );
-
-var pointJanyce5 = s.circle(80,500,20);
-var textJanyce5 = Snap.parse('<title>Wireless Temperature Sensor w/ linked App - Worked with Great Dane coffee company to develop a temperature sensor that would relay the temperature to the customer through an app.</title>');
-pointJanyce5.append( textJanyce5 );
-
-var janyceLine = s.path("M 400 350 L 420 170 L 500 110 S 80 80 80 500");
-
-var Janyce = s.group(pointJanyce1,pointJanyce2,pointJanyce4,pointJanyce5);
 
 // Circle Styles
 fourthYear.attr({
@@ -236,6 +194,11 @@ Janyce.attr({
 
 cobiLine.attr({
   stroke: "#c0392b",
+  fill: "rgba(0,0,0,0)",
+  strokeWidth: "2",
+});
+mattLine.attr({
+  stroke: "#2980b9",
   fill: "rgba(0,0,0,0)",
   strokeWidth: "2",
 });
