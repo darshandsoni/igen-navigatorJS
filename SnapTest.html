@@ -54,33 +54,10 @@ var fourthYear = s.circle(500,500,450);
 var thirdYear = s.circle(500, 500, 300);
 var secondYear = s.circle(500, 500, 150);
 
-var secondText = s.text(550,500, "Second Year");
+var secondText = s.text(540,500, "Second Year");
 var thirdText = s.text(690,500, "Third Year");
 var fourthText = s.text(820,500, "Fourth Year");
 
-// GABRIEL's PATH %%%%%%%%%%%%%%%%%%%%%%%
-var pointGab1 = s.circle(450,450,20);
-var textGab1 = Snap.parse('<title>Project 1: Oxygen Monitor - Designed a oxygen sensor for medical applications to monitor levels in tanks</title>');
-pointGab1.append( textGab1 );
-
-var pointGab2 = s.circle(350,380,20);
-var textGab2 = Snap.parse('<title>MECH 380 - Fluid Dynamics - Continuing fluids background to better understand the mechanics of fluid systems. An area highly relevant to utilities and medical fields</title>');
-pointGab2.append( textGab2 );
-
-var pointGab3 = s.circle(340,400,20);
-var textGab3 = Snap.parse('<title>Project 2: Rescue Balloon - IGEN Challenge Project to create a permanent flare for emergency situations</title>');
-pointGab3.append( textGab3 );
-
-var pointGab4 = s.circle(460,220,20);
-var textGab4 = Snap.parse('<title>CIVL 493 - Construction Case Management - Gained background in productivity analysis and real world application of construction project management. Key experience for understanding how to problem solve in industry, not necessarily in construction</title>');
-pointGab4.append( textGab4 );
-
-var pointGab5 = s.circle(400,250,20);
-var textGab5 = Snap.parse('<title>Project 3: LumenLock - New waterproof port and dressing for CVC lines. Part of the New Venture Design course</title>');
-pointGab5.append( textGab5 );
-
-
-var Gabriel = s.group(pointGab1,pointGab2,pointGab3,pointGab4,pointGab5);
 
 // Matt's PATH %%%%%%%%%%%%%%%%%%%%%%%
 var pointMatt1 = s.circle(100,650,20);
@@ -153,6 +130,31 @@ var cobiLine = s.path("M 420 420 L 500 300 L 340 340 L 240 500 L 150 600");
 
 var Cobi = s.group(pointCobi1,pointCobi2,pointCobi3,pointCobi4,pointCobi5);
 
+// GABRIEL's PATH %%%%%%%%%%%%%%%%%%%%%%%
+var pointGab1 = s.circle(450,450,20);
+var textGab1 = Snap.parse('<title>Project 1: Oxygen Monitor - Designed a oxygen sensor for medical applications to monitor levels in tanks</title>');
+pointGab1.append( textGab1 );
+
+var pointGab2 = s.circle(340,280,20);
+var textGab2 = Snap.parse('<title>MECH 380 - Fluid Dynamics - Continuing fluids background to better understand the mechanics of fluid systems. An area highly relevant to utilities and medical fields</title>');
+pointGab2.append( textGab2 );
+
+var pointGab3 = s.circle(340,400,20);
+var textGab3 = Snap.parse('<title>Project 2: Rescue Balloon - IGEN Challenge Project to create a permanent flare for emergency situations</title>');
+pointGab3.append( textGab3 );
+
+var pointGab4 = s.circle(850,600,20);
+var textGab4 = Snap.parse('<title>CIVL 493 - Construction Case Management - Gained background in productivity analysis and real world application of construction project management. Key experience for understanding how to problem solve in industry, not necessarily in construction</title>');
+pointGab4.append( textGab4 );
+
+var pointGab5 = s.circle(600,250,20);
+var textGab5 = Snap.parse('<title>Project 3: LumenLock - New waterproof port and dressing for CVC lines. Part of the New Venture Design course</title>');
+pointGab5.append( textGab5 );
+
+var gabLine = s.path("M450 450 S 400 500 340 400 S 300 320 340 280 S 450 200 600 250 S 800 500 850 600");
+
+var Gabriel = s.group(pointGab1,pointGab2,pointGab3,pointGab4,pointGab5);
+
 // Circle Styles
 fourthYear.attr({
   fill: "#FFFFFF",
@@ -207,6 +209,11 @@ janyceLine.attr({
   fill: "rgba(0,0,0,0)",
   strokeWidth: "2",
 });
-
+gabLine.attr({
+  stroke: "#2ecc71",
+  fill: "rgba(0,0,0,0)",
+  strokeWidth: "2",
+});
   </script>
+
 </body>
